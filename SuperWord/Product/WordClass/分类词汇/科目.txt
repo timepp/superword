@@ -1,0 +1,83 @@
+语文
+Chinese
+英语
+English
+日语
+Japanese
+数学
+mathematics
+理科
+science
+体育
+gymnastics
+历史
+history
+代数
+algebra
+几何
+geometry
+地理
+geography
+生物
+biology
+化学
+chemistry
+物理
+physics
+地球物理
+physical geography
+文学
+literature
+社会学sociology
+心理学psycology
+哲学
+philosophy
+工程学engineering
+机械工程学mechanical engineering
+电子工程学electronic engineering
+医学
+medicine
+社会科学
+social science
+农学
+agriculture
+天文学astronomy
+经济学economics
+政治学politics
+商学
+commercial science
+生物化学
+biochemistry
+人类学anthropology
+语言学linguistics
+会计学accounting
+法学
+law, jurisprdence
+银行学banking
+冶金学metallurgy
+财政学finance
+大众传播学mass-communication
+新闻学journalism
+原子能学
+atomic energy
+土木工程
+civil engineering
+建筑学architecture
+化学工程
+chemical, engineering
+会计统计
+accounting and statisics
+工商管理
+business administration
+图书馆学
+library
+外交
+diplomacy
+外文
+foreign language
+植物
+botany
+主修
+major
+辅修
+minor

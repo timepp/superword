@@ -1,0 +1,11 @@
+复合命令:命令序列 设置其它的快捷键
+ 复合命令:热键命令 11 192 1 Ctrl + `
+  单一命令:设置单词属性 生词 2
+ --
+ 复合命令:热键命令 11 96 1 Ctrl + 小键盘0
+  单一命令:加载背诵方案命令 E:\My Document\Visual Studio Projects\SuperWord1.12\SuperWord\Product\ReciteScheme\科学背词法复习单词.rs
+ --
+ 复合命令:热键命令 11 97 1 Ctrl + 小键盘1
+  单一命令:加载背诵方案命令 E:\My Document\Visual Studio Projects\SuperWord1.12\SuperWord\Product\ReciteScheme\学习研究生新词.rs
+ --
+--

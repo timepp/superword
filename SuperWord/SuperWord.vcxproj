@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7008CF0C-3117-4433-92E3-4739B9C5B2B4}</ProjectGuid>
+    <RootNamespace>SuperWord</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/SuperWord.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/SuperWord.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <EnablePREfast>false</EnablePREfast>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>Msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>NotSet</ShowProgress>
+      <OutputFile>Product/SuperWord.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/SuperWord.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>xpstyle.manifest %(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/SuperWord.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/SuperWord.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>Msimg32.lib;lib\htmlhelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Product/SuperWord.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Release/SuperWord.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutDlg.cpp" />
+    <ClCompile Include="AddClassTest.cpp" />
+    <ClCompile Include="LibSrc\buttonST\BtnST.cpp" />
+    <ClCompile Include="LibSrc\CheckableGroupBox\CheckableGroupBox.cpp" />
+    <ClCompile Include="LibSrc\CheckComboBox\CheckComboBox.cpp" />
+    <ClCompile Include="LibSrc\ColorBtn\ColorButton.cpp" />
+    <ClCompile Include="ColorPage.cpp" />
+    <ClCompile Include="LibSrc\ColorBtn\ColourPopup.cpp" />
+    <ClCompile Include="Composite.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="CompositeCreator.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="CompositeTreeCtrl.cpp" />
+    <ClCompile Include="ConcreteCommand.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ConcreteCondition.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="CondSetDlg.cpp" />
+    <ClCompile Include="CSAccelDlg.cpp" />
+    <ClCompile Include="CSAccessTimeDlg.cpp" />
+    <ClCompile Include="CSClassDlg.cpp" />
+    <ClCompile Include="CSHotkeySetDlg.cpp" />
+    <ClCompile Include="CSMeaningDlg.cpp" />
+    <ClCompile Include="CSMiscDlg.cpp" />
+    <ClCompile Include="CSMoveWordCmdSetDlg.cpp" />
+    <ClCompile Include="CSOpenDlgDlg.cpp" />
+    <ClCompile Include="CSPhoneticDlg.cpp" />
+    <ClCompile Include="CSReciteSchemeDlg.cpp" />
+    <ClCompile Include="CSRemarkDlg.cpp" />
+    <ClCompile Include="CSRootDlg.cpp" />
+    <ClCompile Include="CSSetColorDlg.cpp" />
+    <ClCompile Include="CSShowElementDlg.cpp" />
+    <ClCompile Include="CSTimerCmdSetDlg.cpp" />
+    <ClCompile Include="CSTypeDlg.cpp" />
+    <ClCompile Include="CSWordDlg.cpp" />
+    <ClCompile Include="CSWordTypeDlg.cpp" />
+    <ClCompile Include="DateWnd.cpp" />
+    <ClCompile Include="DetailMeaning.cpp" />
+    <ClCompile Include="GlobalCmdSetDlg.cpp" />
+    <ClCompile Include="GlobalSetting.cpp" />
+    <ClCompile Include="LibSrc\GradientProgress\GradientProgressCtrl.cpp" />
+    <ClCompile Include="HappyBirthdayDlg.cpp" />
+    <ClCompile Include="Helper.cpp" />
+    <ClCompile Include="LibSrc\HtmlCtrl\HtmlCtrl.cpp" />
+    <ClCompile Include="InputDlg.cpp" />
+    <ClCompile Include="MeaningCtrl.cpp" />
+    <ClCompile Include="MiscCondDlg.cpp" />
+    <ClCompile Include="MyHotKeyCtrl.cpp" />
+    <ClCompile Include="NavigateWndCreator.cpp" />
+    <ClCompile Include="OptionSheet.cpp" />
+    <ClCompile Include="LibSrc\OxTooltip\OXToolTipCtrl.cpp" />
+    <ClCompile Include="PopupDlg.cpp" />
+    <ClCompile Include="PopupHelpStyle.cpp" />
+    <ClCompile Include="PractiseResultDlg.cpp" />
+    <ClCompile Include="ProgressDlg.cpp" />
+    <ClCompile Include="ReciteProgressCtrl.cpp" />
+    <ClCompile Include="ReciteSchemeDlg.cpp" />
+    <ClCompile Include="LibSrc\greta\regexpr2.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ResizableStyle.cpp" />
+    <ClCompile Include="RgnDlg.cpp" />
+    <ClCompile Include="RootComposite.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="RSColorPage.cpp" />
+    <ClCompile Include="RSMiscPage.cpp" />
+    <ClCompile Include="ScrollableStyle.cpp" />
+    <ClCompile Include="Setting.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SuperWord.cpp" />
+    <ClCompile Include="SuperWordDlg.cpp" />
+    <ClCompile Include="LibSrc\greta\syntax2.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TestDlg.cpp" />
+    <ClCompile Include="TooltipPropertyPage.cpp" />
+    <ClCompile Include="TopableStyle.cpp" />
+    <ClCompile Include="TransImgDlg.cpp" />
+    <ClCompile Include="WndDecorator.cpp" />
+    <ClCompile Include="Word.cpp" />
+    <ClCompile Include="WordManager.cpp" />
+    <ClCompile Include="WordType.cpp" />
+    <ClCompile Include="WordtypeDlg.cpp" />
+    <ClCompile Include="WordTypeWnd.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutDlg.h" />
+    <ClInclude Include="AddClassTest.h" />
+    <ClInclude Include="LibSrc\buttonST\BtnST.h" />
+    <ClInclude Include="LibSrc\CheckableGroupBox\CheckableGroupBox.h" />
+    <ClInclude Include="LibSrc\CheckComboBox\CheckComboBox.h" />
+    <ClInclude Include="LibSrc\ColorBtn\ColorButton.h" />
+    <ClInclude Include="ColorPage.h" />
+    <ClInclude Include="LibSrc\ColorBtn\ColourPopup.h" />
+    <ClInclude Include="ColourPopup.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="Composite.h" />
+    <ClInclude Include="CompositeCreator.h" />
+    <ClInclude Include="CompositeTreeCtrl.h" />
+    <ClInclude Include="ConcreteCommand.h" />
+    <ClInclude Include="ConcreteCondition.h" />
+    <ClInclude Include="Condition.h" />
+    <ClInclude Include="CondSetDlg.h" />
+    <ClInclude Include="CSAccelDlg.h" />
+    <ClInclude Include="CSAccessTimeDlg.h" />
+    <ClInclude Include="CSClassDlg.h" />
+    <ClInclude Include="CSHotkeySetDlg.h" />
+    <ClInclude Include="CSMeaningDlg.h" />
+    <ClInclude Include="CSMiscDlg.h" />
+    <ClInclude Include="CSMoveWordCmdSetDlg.h" />
+    <ClInclude Include="CSOpenDlgDlg.h" />
+    <ClInclude Include="CSPhoneticDlg.h" />
+    <ClInclude Include="CSReciteSchemeDlg.h" />
+    <ClInclude Include="CSRemarkDlg.h" />
+    <ClInclude Include="CSRootDlg.h" />
+    <ClInclude Include="CSSetColorDlg.h" />
+    <ClInclude Include="CSShowElementDlg.h" />
+    <ClInclude Include="CSTimerCmdSetDlg.h" />
+    <ClInclude Include="CSTypeDlg.h" />
+    <ClInclude Include="CSWordDlg.h" />
+    <ClInclude Include="CSWordTypeDlg.h" />
+    <ClInclude Include="DateWnd.h" />
+    <ClInclude Include="DetailMeaning.h" />
+    <ClInclude Include="GlobalCmdSetDlg.h" />
+    <ClInclude Include="GlobalSetting.h" />
+    <ClInclude Include="LibSrc\GradientProgress\GradientProgressCtrl.h" />
+    <ClInclude Include="HappyBirthdayDlg.h" />
+    <ClInclude Include="Helper.h" />
+    <ClInclude Include="LibSrc\HtmlCtrl\HtmlCtrl.h" />
+    <ClInclude Include="InputDlg.h" />
+    <ClInclude Include="MeaningCtrl.h" />
+    <ClInclude Include="LibSrc\GradientProgress\MemDC.h" />
+    <ClInclude Include="MiscCondDlg.h" />
+    <ClInclude Include="MyHotKeyCtrl.h" />
+    <ClInclude Include="NavigateWnd.h" />
+    <ClInclude Include="NavigateWndCreator.h" />
+    <ClInclude Include="OptionSheet.h" />
+    <ClInclude Include="LibSrc\OxTooltip\OXDllExt.h" />
+    <ClInclude Include="LibSrc\OxTooltip\OXToolTipCtrl.h" />
+    <ClInclude Include="PopupDlg.h" />
+    <ClInclude Include="PopupHelpStyle.h" />
+    <ClInclude Include="PractiseResultDlg.h" />
+    <ClInclude Include="ProgressDlg.h" />
+    <ClInclude Include="ReciteProgressCtrl.h" />
+    <ClInclude Include="ReciteSchemeDlg.h" />
+    <ClInclude Include="LibSrc\greta\regexpr2.h" />
+    <ClInclude Include="LibSrc\greta\reimpl2.h" />
+    <ClInclude Include="ResizableStyle.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="LibSrc\greta\restack.h" />
+    <ClInclude Include="RgnDlg.h" />
+    <ClInclude Include="RootComposite.h" />
+    <ClInclude Include="RSColorPage.h" />
+    <ClInclude Include="RSMiscPage.h" />
+    <ClInclude Include="ScrollableStyle.h" />
+    <ClInclude Include="Setting.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="SuperWord.h" />
+    <ClInclude Include="SuperWordDlg.h" />
+    <ClInclude Include="LibSrc\greta\syntax2.h" />
+    <ClInclude Include="TestDlg.h" />
+    <ClInclude Include="TooltipPropertyPage.h" />
+    <ClInclude Include="TopableStyle.h" />
+    <ClInclude Include="TransImgDlg.h" />
+    <ClInclude Include="WndDecorator.h" />
+    <ClInclude Include="Word.h" />
+    <ClInclude Include="WordManager.h" />
+    <ClInclude Include="WordType.h" />
+    <ClInclude Include="WordtypeDlg.h" />
+    <ClInclude Include="WordTypeWnd.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\access_time.ico" />
+    <Image Include="res\and.ico" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bitmap4.bmp" />
+    <Image Include="res\bitmap5.bmp" />
+    <Image Include="res\bitmap6.bmp" />
+    <Image Include="res\check_wr.bmp" />
+    <Image Include="res\chk_right.bmp" />
+    <Image Include="Product\chk_wrong.bmp" />
+    <Image Include="res\chk_wrong.bmp" />
+    <Image Include="res\class.ico" />
+    <Image Include="res\color_cmd.ico" />
+    <Image Include="res\D5.ico" />
+    <Image Include="res\earth.bmp" />
+    <Image Include="res\fdsa.bmp" />
+    <Image Include="res\filter.bmp" />
+    <Image Include="res\filter.ico" />
+    <Image Include="res\filter_small.bmp" />
+    <Image Include="res\glocalcmd.ico" />
+    <Image Include="Product\img\goldfish.bmp" />
+    <Image Include="res\goldfish.bmp" />
+    <Image Include="Product\img\heart.gif" />
+    <Image Include="res\heart.gif" />
+    <Image Include="res\hotkey_cmd.ico" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\icon2.ico" />
+    <Image Include="res\icon3.ico" />
+    <Image Include="res\if_cmd.ico" />
+    <Image Include="res\lina.bmp" />
+    <Image Include="res\loadcomp_cmd.ico" />
+    <Image Include="res\meaning.ico" />
+    <Image Include="res\misc_cmd.ico" />
+    <Image Include="res\not.ico" />
+    <Image Include="res\opendlg_cmd.ico" />
+    <Image Include="res\option.bmp" />
+    <Image Include="res\option_small.bmp" />
+    <Image Include="res\or.ico" />
+    <Image Include="res\phonetic.ico" />
+    <Image Include="res\prewordcmd.ico" />
+    <Image Include="res\random_cmd.ico" />
+    <Image Include="res\review1.ico" />
+    <Image Include="res\review2.ico" />
+    <Image Include="res\running.ico" />
+    <Image Include="res\series_cmd.ico" />
+    <Image Include="res\setwordtype_cmd.ico" />
+    <Image Include="res\showelem_cmd.ico" />
+    <Image Include="res\SuperWord.ico" />
+    <Image Include="res\timer_cmd.ico" />
+    <Image Include="res\type.ico" />
+    <Image Include="res\word.ico" />
+    <Image Include="res\wordcalss_small.bmp" />
+    <Image Include="res\wordclass.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Dragcopy.cur" />
+    <None Include="res\Dragmove.cur" />
+    <None Include="res\MeaningTemplate.html" />
+    <None Include="res\phonetic.dat" />
+    <None Include="res\SuperWord.rc2" />
+    <None Include="res\Phonet.dat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="res\lina_script.txt" />
+    <Text Include="Vkname.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SuperWord.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="res\Phonet.ttf" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="SuperWord.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

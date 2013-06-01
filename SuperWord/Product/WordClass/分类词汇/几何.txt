@@ -1,0 +1,65 @@
+平面几何
+plane geometry
+立体几何
+solid geometry
+画法几何
+descriptive geometry
+空间
+space
+面积
+area
+线line
+点point
+圆circle
+圆心 (美作:center)
+centre
+圆周
+circumference
+弧arc
+半径
+radius
+直径
+diameter
+度degree
+平行线parallel
+多边形polygon
+等边三角形equilateral triangle
+等腰三角形isosceles triangle
+不等边三角形
+scalene triangle
+直角三角形right-angled triangle
+底base
+边side
+斜边,弦hypothenuse
+四边形quadrilateral
+矩形
+rectangle
+正方形square
+斜方形trapezium
+菱形
+rhomb, rhombus
+椭圆
+ellipse
+锐角
+acute angle
+直角
+right angle
+钝角
+obtuse angle
+立方体,六面体cube
+球体
+sphere
+圆柱体cylinder
+锥体
+cone
+棱锥
+pyramid
+棱柱
+prism
+截锥
+frustum
+相对的opposite
+相似的similar
+直角的rectangular, right-angled
+等距的equidistant
+无限大infinity

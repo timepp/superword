@@ -1,0 +1,26 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=SuperWord.chm
+Contents file=SuperWord.hhc
+Default topic=版本信息.htm
+Display compile progress=No
+Language=0x804 中文(中国)
+Title=SuperWord帮助
+
+
+[FILES]
+问题反馈.htm
+概述.htm
+版本信息.htm
+开始使用SuperWord\第二步：使用主界面.htm
+开始使用SuperWord\第一步：配置过滤规则.htm
+基本概念\单词.htm
+基本概念\访问时间.htm
+基本概念\类别.htm
+基本概念\属性.htm
+过滤规则\规则表达式入门.htm
+过滤规则\过滤规则使用举例.htm
+过滤规则\过滤规则详述.htm
+
+[INFOTYPES]
+

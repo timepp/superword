@@ -1,0 +1,139 @@
+谷物
+cereals, grain
+谷粒
+coarse grain
+黑麦
+rye
+大麦
+barley
+燕麦
+oats
+粟,黍millet
+高粱
+sorghum
+麸,糠bran
+粗磨谷粉
+flour, meal
+小麦
+wheat
+玉米 (美作:corn)
+maize
+玉米棒子 (美作:corn cob)
+maize cob
+稻rice
+荞麦
+buckwheat
+茶tea
+咖啡
+coffee
+可可树cocoa
+古柯
+coca
+烟草
+tobacco
+蛇麻,啤酒花hop
+块茎作物
+tuber crops
+糖用甜菜
+sugar beet
+马铃薯potato
+甘薯
+sweet potato
+蔬菜
+vegetables
+胡萝卜carrot
+木薯
+cassava, manioc
+芜菁
+turnip
+山药,薯蓣
+yam
+豆类植物
+pulses, leguminous plants
+菜豆
+bean
+豌豆
+pea
+鹰嘴豆chick-pea
+小扁豆lentil
+大豆 (美作:soybean)
+soya bean
+饲料食物
+forage plants
+饲用谷物
+fodder grain
+三叶草clover
+苜蓿 (美作:alfalfa)
+lucern, lucerne
+纤维植物
+textile plants
+棉,草棉
+cotton
+亚麻
+flax
+大麻
+hemp
+龙舌兰American agave
+剑麻,西沙尔麻
+sisal
+木棉树kapok tree
+黄麻
+jute
+马尼拉麻
+Manila hemp
+酒椰
+raffia
+丝兰
+yucca
+油料植物
+oil plants
+向日葵sunflower
+落花生groundnut, peanut
+油橄榄olive
+油橄榄树
+olive tree
+芝麻
+sesame
+蓖麻
+castor oil plant
+油菜籽rape seed
+橡胶树rubber tree
+树脂植物
+resin plant
+红树
+mangrove
+水果
+fruits
+果树
+fruit tree
+葡萄藤grapevine
+葡萄
+grape
+火鸡
+turkey
+鸡chicken
+猪仔
+piglet
+母猪
+sow
+公猪
+boar
+绵羊
+sheep
+公羊
+ram
+母羊
+ewe
+羊羔
+lamb
+羊肉
+mutton
+雄马驹colt
+雌马驹filly
+马horse
+奶牛
+cow
+公牛
+bull
+水牛
+calf

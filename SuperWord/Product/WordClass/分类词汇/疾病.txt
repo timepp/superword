@@ -1,0 +1,100 @@
+疾病
+Disease
+贫血
+anemia, anaemia
+心绞痛angina pectoris
+阑尾炎appendicitis
+关节炎arthritis
+支气管炎
+bronchitis
+癌cancer
+卡他, 粘膜炎catarrh
+水痘
+chicken pox, varicella
+霍乱
+cholera
+感冒, 伤风, 着凉cold
+患感冒(head) cold
+糖尿病diabetes
+白喉
+diphtheria
+湿疹
+eczema
+癫痫
+epilepsy
+丹毒
+erysipelas
+坏疽
+gangrene
+风疹
+German measles, rubella
+痛风
+gout
+头痛
+headache
+偏瘫, 半身不遂
+hemiplegy, hemiplegia
+黄疸
+icterus, jaundice
+消化不良
+indigestion
+流感
+influenza, flu
+精神病insanity
+白血病leukemia
+疟疾
+malaria
+营养不良
+malnutrition
+马耳他热, 波状热Malta fever
+麻疹
+measles
+偏头痛migraine, splitting headache
+心肌梗塞
+miocardial infarction
+流行性腮腺炎
+mumps
+神经痛neuralgia
+神经衰弱
+neurasthenia
+麻痹
+paralysis
+腹膜炎peritonitis
+咽炎
+pharyngitis
+痨病, 肺结核phtisis
+肺炎
+pneumonia
+脊髓灰质炎poliomyelitis
+狂犬病rabies
+风湿病rheumatism
+佝偻病rickets, rachitis
+疥疮
+scabies, itch
+猩红热scarlet fever
+坐骨神经痛sciatica
+硬化
+sclerosis
+败血病septicemia, septicaemia
+窦炎
+sinusitis
+天花
+smallpox
+沼地热swamp fever
+晕厥
+syncope
+梅毒
+syphilis
+破伤风tetanus
+血栓形成thrombosis
+斜颈
+torticollis, stiff neck
+结核病tuberculosis
+瘤tumour,tumor
+斑疹伤寒
+typhus
+荨麻疹urticaria, hives
+百日咳whooping cough
+黄热病yellow fever
+带状疮疹 (参见MEDICINE)
+zona, shingles

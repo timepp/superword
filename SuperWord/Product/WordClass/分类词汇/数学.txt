@@ -1,0 +1,83 @@
+数学
+mathematics
+定理
+theorem
+计算
+calculation
+运算
+operation
+算术,四则运算
+arithmetic
+加法
+addition
+减法
+subtraction
+乘法
+multiplication
+除法
+division
+和sum
+余remainder
+积product
+商quotient
+二加一等于三2 plus 1 equals 3
+四减二等于二
+4 minus 2 equals 2
+四乘以五
+4 multiplied by 5, 4 times 5
+加数
+addend
+加号
+plus sign
+减号
+minus sign
+被乘数multiplicand
+乘数
+multiplier
+除数
+divisor
+被除数dividend
+小数点decimal point
+零点四nought point four
+分数
+fraction
+比ratio
+比例
+proportion
+分子
+numerator
+公分母common denominator
+指数
+exponent
+微分学differential calculus
+积分
+integral calculus
+计算尺slide rule
+函数
+function
+导数
+derivative
+幂,乘方
+power
+使乘五次方to raise to the power of five
+某数的平方x squared
+三次方cube
+三次方的
+three cubed
+乘四次方
+to the fourth power, to the power of four
+平方根square root
+立方根cube root
+比例法rule of three
+对数
+logarithm
+对数表logarithm table
+代数
+algebra
+等式,方程式equation
+未知数unknown
+一次方程simple equation
+二次方程
+quadratic equation
+三次方程
+cubic equation

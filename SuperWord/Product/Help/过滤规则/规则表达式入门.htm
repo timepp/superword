@@ -1,0 +1,136 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>您可能用过操作系统中文件的通配符</title>
+</head>
+
+<body>
+
+<p>您可能用过操作系统中文件的通配符，比如<br>
+*.txt 表示所有扩展名是txt的文件，这里&quot;*&quot;就是一种通配符，用来匹配&quot;任意多的任意字符&quot;<br>
+abc?.bmp 表示所有以abc开头，后接一个任意字母，然后以bmp为扩展名的文件，这里的&quot;?&quot;也是一个通配符，用来匹配&quot;任意单个字符&quot;</p>
+<p>规则表达式相当于文件通配符的增加版，它是正常的和特殊的字符创建组成的一种模式串，该模式被用来匹配一个字符串。<br>
+<br>
+相比之于操作系统文件中的&quot;*&quot;, &quot;?&quot;两个通配符，规则表达式中的特殊符号要多很多，一个规则表达式中所使用的特殊字符常常被称为元字符,下面是常用的一些元字符:<br>
+<br>
+. 匹配任意一个字符(不包括换行符，相当于上述文件通配符的&quot;?&quot;)<br>
+<br>
+^ 匹配字符串的开端<br>
+<br>
+$ 匹配字符串的结尾<br>
+<br>
+x? 匹配0个或1个x,其中x是任意一个规则表达式<br>
+<br>
+x* 匹配0个或多个x<br>
+<br>
+x+ 匹配1个或多个x<br>
+<br>
+foo|bar 匹配foo或bar中的一个<br>
+<br>
+[abc] 匹配在集合abc中的任意一个字符<br>
+<br>
+[A--Z] 匹配范围为A到Z中的任意一个字符<br>
+<br>
+[^xyz] 匹配不在集合xyz中的任意一个单独的字符<br>
+<br>
+\w 匹配一个字母数字字符(例如,[a-zA-Z0-9])<br>
+<br>
+\s 匹配一个空白字符<br>
+<br>
+(规则表达式) 括起来的部分在&quot;匹配过程中匹配的实际串&quot;可以在以后使用\1...\9引用<br>
+<br>
+如果需要在规则表达式中将元字符用作正常字符,可以使用\metachar(\元字符)的格式来取消它的特殊意义. 
+<br>
+<br>
+表达式中所使用的标准量词如下所示:<br>
+<br>
+* 匹配0次或多次<br>
+<br>
++ 匹配1次或多次<br>
+<br>
+? 匹配1次或0次<br>
+<br>
+{n} 正好匹配n次<br>
+<br>
+{n,} 最少匹配n次<br>
+<br>
+{n,m} 最少匹配n次,但最多匹配m次<br>
+<br>
+</p>
+<p>规则表达式举例（以单词过滤规则中的匹配串为例）：</p>
+<table border="1" width="110%">
+  <tr>
+    <td width="45%">规则表达式</td>
+    <td width="78%">说明</td>
+    <td width="37%">可以匹配的串举例</td>
+  </tr>
+  <tr>
+    <td width="45%">a.*</td>
+    <td width="78%">所有以字母a开头的单词</td>
+    <td width="37%">assume;accumulate;accuracy</td>
+  </tr>
+  <tr>
+    <td width="45%">[Aa].*</td>
+    <td width="78%">所有以字母A或a开头的单词</td>
+    <td width="37%">August;Asian;A.D.</td>
+  </tr>
+  <tr>
+    <td width="45%">a.*b</td>
+    <td width="78%">以a开头，以b结尾的单词</td>
+    <td width="37%">absorb;adverb</td>
+  </tr>
+  <tr>
+    <td width="45%">a......</td>
+    <td width="78%">以a开头，长度为7的单词</td>
+    <td width="37%">awkward;average;arrange</td>
+  </tr>
+  <tr>
+    <td width="45%">.*ed</td>
+    <td width="78%">所有以ed结尾的单词</td>
+    <td width="37%">used;unlimited;speed;seed</td>
+  </tr>
+  <tr>
+    <td width="45%">(.*)\1</td>
+    <td width="78%">前半部分和后半部分一样的单词</td>
+    <td width="37%">murmur;papa;mama;OO;couscous</td>
+  </tr>
+  <tr>
+    <td width="45%">[a-f]+</td>
+    <td width="78%">全部由a-f之间的字母组成的单词</td>
+    <td width="37%">facade;decade;cafe;beef</td>
+  </tr>
+  <tr>
+    <td width="45%">.*[ \-].*</td>
+    <td width="78%">所有词组</td>
+    <td width="37%">would rather;world-wide</td>
+  </tr>
+  <tr>
+    <td width="45%">.*(.).*\1.*\1.*\1.*\1.*</td>
+    <td width="78%">包含同一个字母至少5次的所有单词</td>
+    <td width="37%">uselessness;peacekeeper;invisibility</td>
+  </tr>
+  <tr>
+    <td width="45%">(.).*\1</td>
+    <td width="78%">首字母与末字母一样的单词</td>
+    <td width="37%">yesterday;enquire;runner;bomb</td>
+  </tr>
+  <tr>
+    <td width="45%">[^a-f].*[a-f]</td>
+    <td width="78%">以h以后字母开头以f以前字母结束的所有单词</td>
+    <td width="37%">magazine;subtle;onward;panda</td>
+  </tr>
+  <tr>
+    <td width="45%">(.)(.)\2\1</td>
+    <td width="78%">四个字母的回文单词</td>
+    <td width="37%">deed;noon;peep;</td>
+  </tr>
+</table>
+<p><br>
+</p>
+
+</body>
+
+</html>

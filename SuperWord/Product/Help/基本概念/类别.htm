@@ -1,0 +1,30 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>类别</title>
+</head>
+
+<body>
+
+<p>类别和属性是不同的. 用户可以实现任意多的单词类别,类别通过一个类别文件进行定义.</p>
+<p>每个类别文件的文件名指定了一个单词类别, 
+文件中包含了属于这个类别的所有单词. 
+每个单词可以在其下一行或上一行附带一个汉意,也可以不带.</p>
+<p>类别文件都存放在WordClass目录中, 必须以.txt为扩展名. 
+要注意WordClass\分类词汇\世界民族.txt, 表示的类别实际上是&quot;分类词汇\世界民族&quot;, 
+即带着以WordClass路径为根目录的路径名.</p>
+<p>单词的类别主要用于<a href="../过滤规则/过滤规则详述.htm">单词过滤</a>, 
+如果想背诵&quot;植物&quot;类的单词, 
+就可以配一个单词类别过滤规则,指明类别为&quot;植物&quot;.</p>
+<p>通常情况下,单词的类别是相对固定的, 
+这一点和单词的属性很不一样. 比如&quot;tree&quot;的属性在今天是&quot;生词&quot;, 
+而明天背熟了, 用户就可以把属性改为&quot;熟词&quot;. 但tree在任何情况下都属于&quot;植物&quot;这一单词类别(当然如果用户非要修改的话, 
+也可以到&quot;植物.txt&quot;中把包含&quot;tree&quot;的一行删除).</p>
+
+</body>
+
+</html>

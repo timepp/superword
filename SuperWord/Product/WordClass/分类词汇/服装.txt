@@ -1,0 +1,259 @@
+衣服,服装
+clothes
+服装
+wardrobe
+服装
+clothing
+个人依习惯.身份而着的服装habit
+成衣
+ready-made clothes, ready-to-wear clothes
+外衣
+garments
+外衣
+town clothes
+双排扣外衣double-breasted suit
+男外衣suit
+女服
+dress
+女式西服
+tailored suit
+便服
+everyday clothes
+三件套three-piece suit
+嫁妆
+trousseau
+婴儿的全套服装layette
+制服
+uniform
+工装裤overalls
+连背心的背带裤rompers
+礼服
+formal dress
+大礼服tailcoat, morning coat
+夜礼服evening dress
+燕尾服,礼服
+dress coat, tails
+男式晚礼服nightshirt
+无尾礼服 (美作:tuxedo)
+dinner jacket
+礼服制服
+full dress uniform
+双排扣长礼服
+frock coat
+礼袍
+gown, robe
+长袍
+tunic
+男式大衣
+overcoat
+女大衣coat
+夹大衣topcoat
+皮大衣fur coat
+中长大衣
+three-quarter coat
+风衣
+dust coat
+斗篷
+mantle, cloak
+篷却(南美人的一种斗篷)
+poncho
+羊皮夹克
+sheepskin jacket
+皮上衣pelisse
+短外衣夹克jacket
+带兜帽的夹克,带风帽的粗呢大衣
+anorak, duffle coat
+风帽
+hood
+围巾
+scarf, muffler
+大披巾shawl
+头巾,编织的头巾knitted shawl
+毛皮长围巾fur stole
+皮手筒muff
+晨衣 (美作:duster)
+housecoat, dressing gown
+短晨衣short dressing gown
+浴衣
+bathrobe
+女睡衣nightgown, nightdress
+睡衣裤 (美作:pajamas)
+pyjamas
+衣袋
+pocket
+(上衣)翻领
+lapel
+假领,活领
+detachable collar
+硬翻领,上浆翻领
+wing collar
+型领
+V-neck  V
+袖子
+sleeve
+袖口
+cuff
+钮扣孔buttonhole
+衬衫
+shirt
+紧身女衫
+blouse
+短袖圆领衫,体恤衫T-shirt
+汗衫 (美作:undershirt)
+vest
+球衣
+polo shirt
+水手衫middy blouse
+运动衫sweater
+短袖运动衫short-sleeved sweater
+高翻领运动衫
+roll-neck sweater
+圆领运动衫round-neck sweater
+套服
+suit, outfit, ensemble
+两件套,运动衫裤
+twinset
+猎装
+jerkin
+和服
+kimono
+一种长而宽松的外套
+ulster
+带风帽的外衣
+jellaba, djellaba, jelab
+开襟毛衣cardigan
+橡胶雨衣
+mac, mackintosh, raincoat
+裤子
+trousers
+牛仔裤jeans
+短裤
+short trousers
+儿童灯笼短裤
+knickers
+灯笼裤knickerbockers
+高尔夫球裤,半长裤plus fours
+裤子背带 (美作:suspenders)
+braces
+裤角折边,挽脚
+turnup
+马裤
+breeches
+裤带
+belt
+裙子
+skirt
+裙裤
+divided skirt, split skirt
+内衣
+underskirt
+内衣裤underwear, underclothes
+内衣裤 (美作:shorts)
+underpants, pants
+短内裤,三角裤briefs
+女短内裤
+panties
+女半短内裤,男用灯笼短裤
+knickers
+乳罩
+brassiere, bra
+紧身胸衣
+corselet
+束腰,胸衣
+stays, corset
+背心
+waistcoat
+衬裙
+slip, petticoat
+腰带
+girdle
+长袜
+stockings
+袜带 (美作:garters)
+suspenders
+吊袜腰带 (美作:garter belt)
+suspender belt
+短袜
+socks
+紧身衣裤
+tights, leotard
+手帕
+handkerchief
+游泳裤bathing trunks
+游泳衣bathing costume, swimsuit, bathing suit
+比基尼泳衣bikini
+围裙
+apron
+(带护胸)围裙
+pinafore
+鞋shoe
+鞋底
+sole
+鞋后跟heel
+鞋带
+lace
+鹿皮鞋moccasin
+黑漆皮鞋
+patent leather shoes
+靴子
+boot
+便鞋
+slippers
+凉鞋
+sandal
+帆布鞋canvas shoes, rope soled shoes
+木拖鞋clog
+套鞋
+galosh, overshoe
+手套
+glove
+领带 (美作:necktie)
+tie
+蝶形领带
+bow tie
+领巾
+cravat
+便帽
+cap
+带沿的帽子hat
+圆顶硬礼帽bowler hat
+高顶丝质礼帽
+top hat
+巴拿马草帽Panama hat
+贝蕾帽beret
+尖顶帽peaked cap, cap with a visor
+宽边草帽
+broad-brimmed straw hat
+头饰
+headdress
+头巾
+turban
+天然纤维
+natural fabric
+棉cotton
+丝silk
+毛料
+wool
+麻linen
+混合纤维
+synthetic fabric
+压克力acryl
+伸缩尼龙
+polyester
+尼龙
+nylon
+呢料
+worsted
+羊毛
+cashmere
+花样
+patterns
+格子花 (美作:tartan)
+tartan plaid
+圆点花dot
+条纹
+stripe
+花纹花样
+flower pattern
+面纱
+veil

@@ -1,0 +1,147 @@
+足球
+football
+足球场field
+中场
+midfied
+中圈
+kick-off circle
+中线
+half-way line
+足球队football
+足球运动员football player
+守门员goalkeeper
+后卫
+back
+左后卫left
+右后卫right back
+中卫
+centre half back
+前卫
+half back
+左前卫left half back
+右前卫right half back
+前锋
+forward
+中锋
+centre forward, centre
+左内锋inside left forward, inside left
+右内锋inside right forward, inside right
+左边锋outside left forward, outside left
+右边锋outside right forward, outside right
+开球kick-off
+倒钩球bicycle kick, overhead kick
+平胸球chest-high ball
+角球
+corner ball, corner
+球门球goal kick
+地面球ground ball, grounder
+手触球hand ball
+头球
+header
+点球
+penalty kick
+罚点球spot kick
+罚任意球
+free kick
+掷界外球
+throw-in
+控制球ball handling
+正面抢截
+block tackle
+身体阻挡
+body check
+球门前混战bullt
+合理冲撞
+fair charge
+胸部挡球
+chesting
+钉人防守
+close-marking defence
+短传
+close pass, short pass
+连续传球
+consecutive passes
+假动作deceptive movement
+鱼跃顶球
+diving header
+跳起顶球
+flying headar
+盘球
+dribbling
+（守门员）托救球
+finger-tip save
+（守门员）跳球抓好clean catching
+边线传球
+flank pass
+高吊传球
+high lobbing pass
+交叉传球
+scissor pass
+凌空传球
+volley pass
+三角传球
+triangular pass
+滚地传球
+rolling pass, ground pass
+铲球
+slide tackle
+解除危险的球
+clearance kick
+射门
+to shoot
+贴地射门
+grazing shot
+近射
+close-range shot
+远射
+long drive
+未射中mishit
+越位
+offside
+传球
+to pass the ball
+接球
+to take a pass
+球传到位
+spot pass
+脚底停球
+to trap
+截球
+to intercept
+带球过人
+to break through, to beat
+摆脱
+to break loose
+控制中场
+to control the midfield
+破坏防守
+to disorganize the defence
+退回to fall back
+筑人墙to set a wall
+掌握进攻节奏
+to set the pace
+击退一次攻势to ward off an assault
+破坏一次攻势to break up an attack
+控球技术ball playing skill
+全攻全守足球战术
+total football
+拉开的足球战术open football
+越位战术
+off-side trap
+边锋战术
+wing play
+积极的抢射战术shoot-on-sight tactics
+拖延战术
+time wasting tactics
+巴西阵式， 4-2-4 阵式
+Brazilian formation
+四后卫制
+four backs system
+阵式
+four-three-three formation  4-3-3
+阵式
+four-two-four formation  4-2-4
+红牌（表示判罚出场）
+red card
+黄牌（表示警告）
+yellow card

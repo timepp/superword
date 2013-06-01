@@ -1,0 +1,69 @@
+<script>
+var x,y
+var step=18
+var flag=0
+var message="坚决不喝孟婆汤下辈子一定要找到你"
+
+message=message.split("")
+var xpos=new Array()
+for (i=0;i<message.length;i++) {
+xpos[i]=-50
+}
+
+var ypos=new Array()
+for (i=0;i<message.length;i++) {
+ypos[i]=-200
+}
+
+function handlerMM(e){
+x = (document.layers) ? e.pageX : document.body.scrollLeft+event.clientX
+y = (document.layers) ? e.pageY : document.body.scrollTop+event.clientY
+flag=1
+}
+
+function www_helpor_net() {
+if (flag==1 && document.all) {
+for (i=message.length-1; i>=1; i--) {
+xpos[i]=xpos[i-1]+step
+ypos[i]=ypos[i-1]
+}
+xpos[0]=x+step
+ypos[0]=y
+
+for (i=0; i<message.length; i++) {
+var thisspan = eval("span"+(i)+".style")
+thisspan.posLeft=xpos[i]
+thisspan.posTop=ypos[i]
+}
+}
+
+else if (flag==1 && document.layers) {
+for (i=message.length-1; i>=1; i--) {
+xpos[i]=xpos[i-1]+step
+ypos[i]=ypos[i-1]
+}
+xpos[0]=x+step
+ypos[0]=y
+
+for (i=0; i<message.length; i++) {
+var thisspan = eval("document.span"+i)
+thisspan.left=xpos[i]
+thisspan.top=ypos[i]
+}
+}
+var timer=setTimeout("www_helpor_net()",30)
+}
+
+for (i=0;i<message.length;i++) {
+document.write("<span id='span"+i+"' class='spanstyle'>")
+document.write(message[i])
+document.write("</span>")
+}
+
+if (document.layers){
+document.captureEvents(Event.MOUSEMOVE);
+}
+document.onmousemove = handlerMM;
+www_helpor_net();
+// -->
+</script>

@@ -1,0 +1,36 @@
+饮料
+drink
+矿泉水mineral water
+桔子原汁
+orange juice
+桔子水orangeade, orange squash
+柠檬原汁
+lemon juice
+柠檬水lemonade
+啤酒
+beer
+白葡萄酒
+white wine
+红葡萄酒
+red wine
+波尔多红葡萄酒claret
+苹果酒cider
+香槟酒champagne
+鸡尾酒cocktail
+白酒,烧酒
+liqueur
+绍兴酒shaohsing wine
+黄酒
+yellow wine
+高粱酒Kaoliang spirit
+五加皮Wu Chia Pee
+伏特加vodka
+威士忌whisky
+白兰地brandy
+法国白兰地cognac
+琴酒
+gin
+杜松子酒
+gin flzz
+马提尼酒
+martini

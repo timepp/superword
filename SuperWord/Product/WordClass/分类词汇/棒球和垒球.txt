@@ -1,0 +1,198 @@
+棒球
+baseball
+棒球场baseball field, baseball ground
+垒球
+softball
+垒球场softball field, softball ground
+内场
+infield,diamond
+外场
+outfield
+界内地区
+fair territory
+界外地区
+foul territory
+边线
+foul line
+垒间线base line
+垒base
+垒垫, 垒包
+bag
+本垒
+home base
+一垒first base
+二垒
+second base
+三垒
+third base
+本垒板home plate
+投手板pitcher's plate
+（棒球）投手土墩
+pitcher's mound
+（垒球）投手圈pitcher's circle
+击球员区
+batter's box
+击球员准备区
+on deck circle
+接手区catcher's box
+跑垒指导员区
+coacher's box
+队员席bench, dug-out
+候补投手练习区bull-pen
+手套, 分指手套
+glove
+合指手套
+milt
+球棒
+bat
+护面
+mask
+护胸
+chest protector
+护腿
+leg protector
+护裆
+supporter
+护帽
+helmet
+棒球运动员baseball player
+垒球运动员softball player
+投手
+pitcher
+接手
+catcher
+守场员fielder
+守垒员baseman
+内场手infielder
+一垒手
+first baseman
+二垒手second baseman
+三垒手third baseman
+游击手shortstop
+外场手outfielder
+击球员batter, hitter
+跑垒员base-runner
+击跑员batter-runner
+候援投手
+relief pitcher
+指名击球员designated hitter (DH)
+跑垒指导员coacher
+总教练manager
+司球裁判员plate umpire
+司垒裁判员base umpire
+局次inning
+先攻队visiting team
+后攻队home team
+攻队
+offensive team
+守队
+defensive team
+投手投球
+pitching
+（棒球投手）正面投球法windup position
+（棒球投手）侧身投球法set up position
+（垒球投手）后摆投球法sling shot
+（垒球投手）绕环投球法wind mill
+（垒球投手）8字投球法
+8 figure
+传球
+throwing
+接球
+catching
+防守
+fielding
+击球
+batting, hitting
+跑垒
+base running
+偷垒
+stealing
+滑垒
+sliding
+好球区strike zone
+界内球fair ball
+界外球foul ball
+不合法投球illegal pitch
+不合法击球illegally batted ball
+触击球bunt
+擦棒球foul tip
+触击
+bunting
+挥击
+swing
+地滚球ground ball, grounder
+平直球liner, line drive
+腾空球fly ball
+安全打hit, safety hit
+一垒打
+one base hit
+二垒打two base hit
+三垒打three base hit
+本垒打home run, homer
+牺牲打sacrifice hit
+牺牲触击
+sacrifice bunt
+牺牲腾空球sacrifice fly
+抢分触击
+squeeze bunt
+击跑配合战术
+run and hit, hit and run
+安全上垒
+safe
+四球安全上垒
+base on balls
+三击出局
+struck-out
+得分
+run,score
+击球次序
+batting order
+（投手）暴投
+wild pitch
+（投手）牵制跑垒员的传球
+pick-off
+（棒球）投手犯规
+balk
+接杀
+put-out
+出局
+out, down, away
+触杀
+touch out
+封杀
+force out
+助杀
+assist
+夹杀
+run down
+双杀
+double play, double kill
+三杀
+triple play, triple kill
+野传球wild throw
+接手漏接球passed ball
+继续比赛, 活球
+ball in play, live ball
+死球
+ball not in play, dead ball
+补位
+cover
+策应
+back up
+拦接
+cut-off
+近迫防守
+play shallow
+後撤防守
+play deep
+申诉行为
+appeal play
+有效比赛
+called game
+比赛弃权
+forfeited game
+安打率batting average
+防守率fielding average
+投手责任失分
+earned run
+无安打无得分获胜的比赛complete game

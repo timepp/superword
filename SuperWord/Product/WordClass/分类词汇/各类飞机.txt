@@ -1,0 +1,50 @@
+班机
+airliner
+单翼飞机
+monoplane
+滑翔机
+glider
+教练机
+trainer aircraft
+客机
+passenger plane
+螺旋桨飞机
+propeller-driven aircraft
+喷射飞机
+jet aircraft
+水陆两用飞机
+amphibian
+水上飞机
+seaplane, hydroplane
+涡轮风扇飞机
+turbofan jet
+涡轮螺旋桨飞机
+turboprop
+涡轮喷射飞机
+turbojet
+运输机
+transport plane
+直升机
+helicopter
+超音速
+supersonic
+高超音速
+hypersonic
+跨音速
+transonic
+亚音速
+subsonic
+空中客车
+Airbus
+波音
+Boeing
+协和
+Concord
+依柳辛
+Ilyusin
+麦道
+McDonald-Douglas
+三叉戟
+Trident
+图波列夫
+Tupolev

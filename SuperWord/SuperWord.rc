@@ -1,0 +1,1179 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\SuperWord.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\SuperWord.ico"
+IDI_OPTION              ICON                    "res\\D5.ico"
+IDI_OR                  ICON                    "res\\or.ico"
+IDI_NOT                 ICON                    "res\\not.ico"
+IDI_AND                 ICON                    "res\\and.ico"
+IDI_MEANING             ICON                    "res\\meaning.ico"
+IDI_WORD                ICON                    "res\\word.ico"
+IDI_CLASS               ICON                    "res\\class.ico"
+IDI_TYPE                ICON                    "res\\type.ico"
+IDI_RUNNING             ICON                    "res\\running.ico"
+IDI_ACCESS_TIME         ICON                    "res\\access_time.ico"
+IDI_PHONETIC            ICON                    "res\\phonetic.ico"
+IDI_ICON_PLUS           ICON                    "res\\icon2.ico"
+IDI_SERIES_CMD          ICON                    "res\\series_cmd.ico"
+IDI_HOTKEY_CMD          ICON                    "res\\hotkey_cmd.ico"
+IDI_TIMER_CMD           ICON                    "res\\timer_cmd.ico"
+IDI_MISC_CMD            ICON                    "res\\misc_cmd.ico"
+IDI_RANDOM_CMD          ICON                    "res\\random_cmd.ico"
+IDI_IF_CMD              ICON                    "res\\if_cmd.ico"
+IDI_SHOWELEMENT_CMD     ICON                    "res\\showelem_cmd.ico"
+IDI_OPENDLG_CMD         ICON                    "res\\opendlg_cmd.ico"
+IDI_SETWORDTYPE_CMD     ICON                    "res\\setwordtype_cmd.ico"
+IDI_SETCOLOR_CMD        ICON                    "res\\color_cmd.ico"
+IDI_MOVEWORD_CMD        ICON                    "res\\icon3.ico"
+IDI_LOADCOMP_CMD        ICON                    "res\\loadcomp_cmd.ico"
+IDI_FILTER              ICON                    "res\\filter.ico"
+IDI_GLOBAL_CMD          ICON                    "res\\glocalcmd.ico"
+IDI_PERWORD_CMD         ICON                    "res\\prewordcmd.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  0, 0, 216, 87
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 SuperWord"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC_ICON,7,59,20,20
+    LTEXT           "SuperWord 1.0 内部测试版",IDC_STATIC,34,61,119,8,SS_NOPREFIX
+    DEFPUSHBUTTON   "确定",IDOK,159,66,50,14,WS_GROUP
+    CONTROL         "",IDC_STATIC_LOGO,"Static",SS_WHITEFRAME,7,7,202,39
+    LTEXT           "2004年10月24日",IDC_STATIC,33,72,119,8,SS_NOPREFIX
+END
+
+IDD_SuperWord_DIALOG DIALOGEX 0, 0, 372, 119
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "SuperWord"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_RICHEDIT_WORD,"RICHEDIT",TCS_VERTICAL | TCS_RAGGEDRIGHT | WS_TABSTOP,7,7,290,19,WS_EX_STATICEDGE
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",0x1,7,77,288,14
+    CONTROL         "",IDC_RICHEDIT_PRACTISE,"RICHEDIT",TCS_VERTICAL | WS_TABSTOP,7,93,358,19,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BTN_MENU,349,76,16,16,BS_FLAT
+    CONTROL         "",IDC_WORDTYPE,"Button",BS_OWNERDRAW | WS_TABSTOP,300,7,65,19
+    LTEXT           "",IDC_ACCESS_DATE,297,77,51,14,SS_CENTERIMAGE
+    CONTROL         "",IDC_HTML_MEANING,"Static",SS_BLACKFRAME,7,30,358,44
+END
+
+IDD_COLOR_PAGE DIALOGEX 0, 0, 235, 233
+STYLE DS_SETFONT | DS_CONTEXTHELP | WS_CHILD | WS_VISIBLE | WS_VSCROLL
+EXSTYLE WS_EX_CLIENTEDGE
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Button1",IDC_BTN_DLGBK,1,7,40,14
+    PUSHBUTTON      "Button1",IDC_BTN_WORDBK,1,32,40,14
+    PUSHBUTTON      "Button1",IDC_BTN_WORDCOLOR,1,48,40,14
+    PUSHBUTTON      "Button1",IDC_BTN_MEANINGBK,1,73,40,14
+    PUSHBUTTON      "Button1",IDC_BTN_PHONETICSCOLOR,1,90,40,14
+    PUSHBUTTON      "Button1",IDC_BTN_MEANINGCOLOR,1,106,40,14
+    PUSHBUTTON      "Button1",IDC_BTN_MS_FACE,1,131,40,14
+    PUSHBUTTON      "Button1",IDC_BTN_MS_ARROW,1,147,40,14
+    PUSHBUTTON      "Button1",IDC_BTN_MS_HIGHLIGHT,1,163,40,14
+    PUSHBUTTON      "Button1",IDC_BTN_MS_SHADOW,1,179,40,14
+    PUSHBUTTON      "Button1",IDC_BTN_MS_DARKSHADOW,1,195,40,14
+    PUSHBUTTON      "Button1",IDC_BTN_MS_BASE,1,212,40,14
+    PUSHBUTTON      "Button1",IDC_BTN_PROGRESSCR1,105,7,40,14
+    PUSHBUTTON      "Button1",IDC_BTN_PROGRESSCR2,105,23,40,14
+    PUSHBUTTON      "Button1",IDC_BTN_PROGRESSBK,105,39,40,14
+    PUSHBUTTON      "Button1",IDC_BTN_PROGRESSCHAR,105,55,40,14
+    PUSHBUTTON      "Button1",IDC_BTN_ACCESSTIMEBK,105,80,40,14
+    PUSHBUTTON      "Button1",IDC_BTN_ACCESSTIMECOLOR,105,96,40,14
+    PUSHBUTTON      "Button1",IDC_BTN_TYPEBK,105,121,40,14
+    PUSHBUTTON      "Button1",IDC_BTN_TYPEACTIVE,105,137,40,14
+    PUSHBUTTON      "Button1",IDC_BTN_TYPEBORDER,105,153,40,14
+    PUSHBUTTON      "Button1",IDC_BTN_PRACTICEBK,105,178,40,14
+    PUSHBUTTON      "Button1",IDC_BTN_PRICTICECOLOR,105,194,40,14
+    LTEXT           "对话框背景",IDC_STATIC,46,7,57,14,SS_CENTERIMAGE
+    LTEXT           "单词窗口背景",IDC_STATIC,46,32,57,14,SS_CENTERIMAGE
+    LTEXT           "单词",IDC_STATIC,46,48,57,14,SS_CENTERIMAGE
+    LTEXT           "练习窗口背景",IDC_STATIC,150,178,52,14,SS_CENTERIMAGE
+    LTEXT           "练习字符",IDC_STATIC,150,194,50,14,SS_CENTERIMAGE
+    LTEXT           "汉意窗口背景",IDC_STATIC,46,73,57,14,SS_CENTERIMAGE
+    LTEXT           "音标",IDC_STATIC,46,89,57,14,SS_CENTERIMAGE
+    LTEXT           "汉意",IDC_STATIC,46,105,57,14,SS_CENTERIMAGE
+    LTEXT           "单词属性窗口背景",IDC_STATIC,150,121,73,14,SS_CENTERIMAGE
+    LTEXT           "有效的单词属性",IDC_STATIC,150,137,57,14,SS_CENTERIMAGE
+    LTEXT           "单词属性窗口边界",IDC_STATIC,150,153,68,14,SS_CENTERIMAGE
+    LTEXT           "访问时间窗口背景",IDC_STATIC,150,80,68,14,SS_CENTERIMAGE
+    LTEXT           "访问时间",IDC_STATIC,150,96,57,14,SS_CENTERIMAGE
+    LTEXT           "进度条起始颜色",IDC_STATIC,150,7,57,14,SS_CENTERIMAGE
+    LTEXT           "进度条背景",IDC_STATIC,150,39,57,14,SS_CENTERIMAGE
+    LTEXT           "进度显示",IDC_STATIC,150,55,57,14,SS_CENTERIMAGE
+    LTEXT           "进度条终止颜色",IDC_STATIC,150,23,57,14,SS_CENTERIMAGE
+    LTEXT           "滚动条",IDC_STATIC,46,131,50,14,SS_CENTERIMAGE
+    LTEXT           "滚动条按钮",IDC_STATIC,46,147,59,14,SS_CENTERIMAGE
+    LTEXT           "滚动条基本颜色",IDC_STATIC,46,211,59,14,SS_CENTERIMAGE
+    LTEXT           "滚动条阴影",IDC_STATIC,46,179,59,14,SS_CENTERIMAGE
+    LTEXT           "滚动条高亮",IDC_STATIC,46,163,59,14,SS_CENTERIMAGE
+    LTEXT           "滚动条暗边框",IDC_STATIC,46,195,59,14,SS_CENTERIMAGE
+END
+
+IDD_CS_WORD_DLG DIALOG  0, 0, 270, 45
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "过滤配置对话框 -- 单词"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,213,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,213,24,50,14
+    EDITTEXT        IDC_EDIT_MATCHER,7,24,192,14,ES_AUTOHSCROLL
+    LTEXT           "单词匹配串:",IDC_STATIC,7,7,46,14,SS_CENTERIMAGE
+END
+
+IDD_CS_MEANING_DLG DIALOGEX 0, 0, 270, 45
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "过滤配置对话框 -- 汉意"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,213,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,213,25,50,14
+    LTEXT           "汉意匹配串:",IDC_STATIC,7,7,46,10,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_MATCHER,7,25,194,14,ES_AUTOHSCROLL
+    CONTROL         "匹配详细解释",IDC_CHECK_MATCH_DETAIL_MEANING,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,85,7,102,10
+END
+
+IDD_CS_PHONETIC_DLG DIALOGEX 0, 0, 360, 125
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "过滤配置对话框 -- 音标"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,302,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,302,25,50,14
+    CONTROL         "",IDC_RICHEDIT_MATCHER,"RICHEDIT",TCS_VERTICAL | WS_BORDER | WS_TABSTOP,7,7,279,22
+    LTEXT           "请从下面选择音标",IDC_STATIC,7,33,69,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_PHONETIC_AREA,"Static",SS_BLACKFRAME,7,48,345,70
+END
+
+IDD_CS_CLASS_DLG DIALOG  0, 0, 270, 45
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "单词类别"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,213,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,213,24,50,14
+    PUSHBUTTON      "选择类别...",IDC_BTN_SELECT_WORD_CLASS,7,7,50,14
+    EDITTEXT        IDC_EDIT_WORD_CLASS,7,24,179,14,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_CS_ACCESSTIME_DLG DIALOG  0, 0, 294, 169
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,237,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,237,27,50,14
+    CONTROL         "背诵日期大于：",IDC_CHECK_TMMIN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,21,26,74,15
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER_TMMIN,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,105,26,100,15
+    CONTROL         "背诵日期小于：",IDC_CHECK_TMMAX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,21,50,72,15
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER_TMMAX,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,105,50,100,15
+    PUSHBUTTON      "所有背诵过的单词",IDC_BUTTON_ALLRECITED,21,75,89,14
+    GROUPBOX        "使用绝对日期",IDC_STATIC_USEABSDATE,7,7,218,92
+    GROUPBOX        "使用相对日期",IDC_STATIC_USERELADATE,7,108,218,54
+    LTEXT           "背诵日期为：",IDC_STATIC,21,131,60,15,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_DAYBEFORE,95,131,47,14,ES_AUTOHSCROLL
+    LTEXT           "天之前",IDC_STATIC,154,131,34,15,SS_CENTERIMAGE
+END
+
+IDD_CS_TYPE_DLG DIALOGEX 0, 0, 270, 45
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,213,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,213,24,50,14
+    LTEXT           "选择单词属性:",IDC_STATIC,7,7,55,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_TYPELIST,7,26,187,139,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_WORDTYPE_DLG DIALOGEX 0, 0, 261, 97
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "单词属性"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    LISTBOX         IDC_WORDTYPE_LIST,67,7,122,83,LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "上移",IDC_BTN_MOVEUP,7,7,50,14
+    PUSHBUTTON      "下移",IDC_BTN_MOVEDOWN,7,24,50,14
+    PUSHBUTTON      "添加",IDC_BTN_ADD_WORD_TYPE,7,58,50,14
+    PUSHBUTTON      "删除",IDC_BTN_DEL_WORD_TYPE,7,75,50,14
+    PUSHBUTTON      "交换",IDC_BTN_EXCHANGE_SEL,7,41,50,14
+    DEFPUSHBUTTON   "确定",IDOK,204,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,204,25,50,14
+END
+
+IDD_RGN_DLG DIALOG  0, 0, 339, 145
+STYLE DS_SETFONT | WS_POPUP
+FONT 10, "System"
+BEGIN
+END
+
+IDD_INPUT_DLG DIALOGEX 0, 0, 270, 45
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "新宋体", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,213,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,213,24,50,14
+    EDITTEXT        IDC_EDIT,7,24,196,14,ES_AUTOHSCROLL
+    LTEXT           "Static",IDC_PROMPT,7,7,201,14
+END
+
+IDD_POPUP_DLG DIALOG  0, 0, 57, 14
+STYLE DS_SETFONT | WS_POPUP
+FONT 9, "宋体"
+BEGIN
+END
+
+IDD_RS_MISC_PAGE DIALOGEX 0, 0, 285, 99
+STYLE DS_SETFONT | DS_CONTEXTHELP | WS_CHILD | WS_CAPTION
+CAPTION "其它设置"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    COMBOBOX        IDC_CB_MARK_ACCESSTIME_MODE,109,7,85,89,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "单词访问时间的设置时机：",IDC_STATIC,7,7,99,13,SS_CENTERIMAGE
+    CONTROL         "尽量显示单词的详细解释",IDC_CHECK_SHOW_DETAIL_MEANING,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,50,132,10
+    COMBOBOX        IDC_CB_WORD_ORDER_BASE,68,28,65,44,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "单词排序方式：",IDC_STATIC,7,28,58,13,SS_CENTERIMAGE
+    COMBOBOX        IDC_CB_WORD_ORDER,139,28,48,43,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "在练习窗口拼写单词正确后跳到下一单词",IDC_CHECK_MOVENEXT_WHEN_TYPE_RIGHT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,66,201,10
+    CONTROL         "显示单词练习窗口(需要重启动)",IDC_CHECK_SHOW_PRACTISE_WND,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,82,201,10
+    LTEXT           "延迟(毫秒):",IDC_STATIC_AUTOMARK_ACCESS_TIME_DELAY,199,7,46,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_AUTOMARK_ACCESS_TIME_DELAY,245,7,33,12,ES_AUTOHSCROLL
+END
+
+IDD_PROGRESS_DLG DIALOGEX 0, 0, 295, 25
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "进度"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",WS_BORDER | 0x1,7,7,281,11
+END
+
+IDD_TEST_DLG DIALOGEX 0, 0, 283, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "测试"
+FONT 12, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_TESTTREE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP | 0x800,0,0,283,130
+END
+
+IDD_RS_COLOR_PAGE DIALOG  0, 0, 285, 99
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "颜色设置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "加载...",IDC_BTN_LOAD_COLORSCHEME,235,20,50,14
+    PUSHBUTTON      "保存...",IDC_BTN_SAVE_COLORSCHEME,235,1,50,14
+    CONTROL         "",IDC_COLOR_CHILD,"Static",SS_BLACKFRAME,0,1,228,98
+END
+
+IDD_TRANS_IMG_DLG DIALOG  0, 0, 50, 51
+STYLE DS_SETFONT | WS_POPUP
+FONT 9, "宋体"
+BEGIN
+END
+
+IDD_PRACTISE_RESULT_DLG DIALOG  0, 0, 81, 68
+STYLE DS_SETFONT | WS_POPUP
+FONT 9, "宋体"
+BEGIN
+END
+
+IDD_HAPPY_BIRTHDAY DIALOGEX 0, 0, 186, 173
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "情人节快乐"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_STATIC_CONGRATULATION,"Static",SS_WHITEFRAME,7,7,172,23
+    CONTROL         198,IDC_STATIC_FLY,"Static",SS_BITMAP | SS_REALSIZEIMAGE,7,36,172,129,WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC_INFO,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,16,100,153,49
+END
+
+IDD_CONDSETDLG DIALOG  0, 0, 186, 95
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话框"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,16
+    PUSHBUTTON      "取消",IDCANCEL,129,26,50,16
+END
+
+IDD_CS_INTERVAL_DLG DIALOGEX 0, 0, 270, 67
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "命令配置器:定时器命令"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,213,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,213,24,50,14
+    EDITTEXT        IDC_EDIT_INTERVAL,102,7,90,14,ES_AUTOHSCROLL
+    LTEXT           "定时器时间间隔(毫秒):",IDC_STATIC,7,7,88,14,SS_CENTERIMAGE,WS_EX_RIGHT
+    LTEXT           "执行次数:",IDC_STATIC,7,24,88,14,SS_CENTERIMAGE,WS_EX_RIGHT
+    COMBOBOX        IDC_COMBO_REPEAT_TIME,102,24,90,92,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "全局命令",IDC_CHECK_DELETE_ON_WORD_CHANGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,47,112,13
+END
+
+IDD_CS_HOTKEY_DLG DIALOGEX 0, 0, 277, 45
+STYLE DS_LOCALEDIT | DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置热键"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,220,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,220,24,50,14
+    LTEXT           "在下面的框里按快捷键:",IDC_STATIC,7,7,187,14,SS_CENTERIMAGE
+    CONTROL         "",IDC_HOTKEY,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,7,24,190,14
+END
+
+IDD_CS_MOVEWORD_DLG DIALOGEX 0, 0, 275, 45
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "移动单词命令配置"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,218,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,218,24,50,14
+    LTEXT           "移动单词命令",IDC_STATIC,7,7,190,14,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_MOVEWORD_CMD,7,24,180,119,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_CS_SETCOLOR_DLG DIALOGEX 0, 0, 243, 51
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,131,30,50,14
+    PUSHBUTTON      "取消",IDCANCEL,186,30,50,14
+    LTEXT           "选择界面元素",IDC_STATIC,7,7,53,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_COLOR_ELEMENT,68,7,168,122,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "设置颜色",IDC_STATIC,7,32,35,12,SS_CENTERIMAGE
+    PUSHBUTTON      "Button1",IDC_BTN_SET_COLOR,51,30,66,14
+END
+
+IDD_CS_REMARK_DLG DIALOGEX 0, 0, 261, 45
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "编辑注释"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,204,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,204,24,50,14
+    LTEXT           "请输入注释",IDC_STATIC,7,11,170,8
+    EDITTEXT        IDC_EDIT_COMP_REMARK,7,24,186,14,ES_AUTOHSCROLL
+END
+
+IDD_CS_OPENDLG_DLG DIALOGEX 0, 0, 257, 45
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "配置打开对话框命令"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,200,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,200,24,50,14
+    LTEXT           "选择要打开的对话框",IDC_STATIC,7,11,165,8
+    COMBOBOX        IDC_COMBO_DIALOG,7,24,175,137,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_CS_SHOW_ELEMENT_DLG DIALOGEX 0, 0, 244, 67
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,187,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,187,24,50,14
+    LTEXT           "选择界面元素",IDC_STATIC,7,7,49,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_VISUAL_ELEMENT,63,7,115,104,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "隐藏",IDC_RADIO_HIDE_WORD,"Button",BS_AUTORADIOBUTTON | WS_GROUP,7,50,32,10
+    CONTROL         "显示",IDC_RADIO_SHOW_WORD,"Button",BS_AUTORADIOBUTTON,7,33,32,10
+END
+
+IDD_CS_WORDTYPE_DLG DIALOGEX 0, 0, 245, 67
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置单词属性"
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,188,7,50,14,WS_GROUP
+    PUSHBUTTON      "取消",IDCANCEL,188,26,50,14
+    LTEXT           "单词属性:",IDC_STATIC,7,10,87,8
+    COMBOBOX        IDC_COMBO_WORD_TYPE,48,7,124,102,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "动作",IDC_STATIC,7,26,165,34
+    CONTROL         "设置",IDC_RADIO_SET_WORD_TYPE_STYLE,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,15,41,32,10
+    CONTROL         "清除",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,68,41,32,10
+    CONTROL         "切换",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,121,41,32,10
+END
+
+IDD_CS_MISC_DLG DIALOGEX 0, 0, 283, 45
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,226,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,226,24,50,14
+    LTEXT           "请选择命令",IDC_STATIC,7,7,160,8
+    COMBOBOX        IDC_COMBO_MISC_CMD,7,24,209,128,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_CS_ACCEL_DLG DIALOGEX 0, 0, 276, 99
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置快捷键"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,161,77,50,14
+    PUSHBUTTON      "取消",IDCANCEL,219,77,50,14
+    CONTROL         "CONTROL",IDC_CHECK_CONTROL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,18,48,10
+    CONTROL         "ALT",IDC_CHECK_ALT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,34,28,10
+    CONTROL         "SHIFT",IDC_CHECK_SHIFT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,50,35,10
+    GROUPBOX        "",IDC_STATIC,7,7,58,63
+    COMBOBOX        IDC_COMBO_VIRTUAL_KEY,95,34,174,136,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    ICON            IDI_ICON_PLUS,IDC_STATIC,67,31,20,20
+    LTEXT           "请从列表里选择一个键",IDC_STATIC,95,12,136,8
+    LTEXT           "或者直接敲击您想设置的键",IDC_STATIC,95,23,174,8
+    CONTROL         "全局命令",IDC_CHECK_DELETE_ON_WORD_CHANGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,81,88,10
+END
+
+IDD_RECITE_SCHEME DIALOGEX 0, 0, 380, 255
+STYLE DS_SETFONT | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "编辑背诵方案"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,267,234,50,14
+    PUSHBUTTON      "取消",IDCANCEL,323,234,50,14
+    CONTROL         "",IDC_TREE_PERWORD_CMD,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP | 0x800,7,114,366,112
+    CONTROL         "",IDC_TREE_CONDITION,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP | 0x800,7,7,366,104
+    PUSHBUTTON      "保存背诵方案",IDC_BUTTON_SAVE_RECITE_SCHEME,186,234,62,14
+    PUSHBUTTON      "打开背诵方案",IDC_BUTTON_OPEN_RECITE_SCHEME,119,234,62,14
+END
+
+IDD_CS_LOAD_RECITE_SCHEME_DLG DIALOGEX 0, 0, 273, 77
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "选择背诵方案"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,214,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,214,24,50,14
+    LTEXT           "背诵方案文件全路径(双击打开浏览文件对话框):",IDC_STATIC,7,11,203,8
+    EDITTEXT        IDC_EDIT_RECITE_SCHEME_FILE,7,24,191,46,ES_MULTILINE
+END
+
+IDD_CS_MISC_COND_DLG DIALOGEX 0, 0, 270, 45
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "选择运行时条件"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,213,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,213,24,50,14
+    COMBOBOX        IDC_COMBO_MISC_CONDITION,7,24,192,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "请选择运行时条件：",IDC_STATIC,7,11,150,8
+END
+
+IDD_GLOBALCMD_SET_DLG DIALOGEX 0, 0, 310, 163
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "全局命令设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,193,142,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,253,142,50,14
+    CONTROL         "",IDC_TREE_GLOBAL_CMD,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP | 0x800,7,7,296,128
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "Timepp Soft"
+            VALUE "FileDescription", "SuperWord"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "SuperWord Beta"
+            VALUE "LegalCopyright", "版权所有 (C) 2004"
+            VALUE "OriginalFilename", "SuperWord.EXE"
+            VALUE "ProductName", "SuperWord"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 209
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 80
+    END
+
+    IDD_SuperWord_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 365
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 112
+    END
+
+    IDD_COLOR_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        VERTGUIDE, 41
+        VERTGUIDE, 46
+        VERTGUIDE, 105
+        VERTGUIDE, 145
+        VERTGUIDE, 150
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 226
+    END
+
+    IDD_CS_WORD_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 38
+    END
+
+    IDD_CS_MEANING_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 38
+    END
+
+    IDD_CS_PHONETIC_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 352
+        VERTGUIDE, 353
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 118
+    END
+
+    IDD_CS_CLASS_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 38
+    END
+
+    IDD_CS_ACCESSTIME_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 287
+        VERTGUIDE, 21
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 162
+    END
+
+    IDD_CS_TYPE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 38
+    END
+
+    IDD_WORDTYPE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 254
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 90
+    END
+
+    IDD_INPUT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 38
+    END
+
+    IDD_RS_MISC_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 278
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 92
+        HORZGUIDE, 28
+    END
+
+    IDD_PROGRESS_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 288
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 18
+    END
+
+    IDD_TEST_DLG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 130
+    END
+
+    IDD_RS_COLOR_PAGE, DIALOG
+    BEGIN
+        TOPMARGIN, 1
+    END
+
+    IDD_PRACTISE_RESULT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 74
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 61
+    END
+
+    IDD_HAPPY_BIRTHDAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 166
+    END
+
+    IDD_CONDSETDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_CS_INTERVAL_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 60
+    END
+
+    IDD_CS_HOTKEY_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 270
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 38
+    END
+
+    IDD_CS_MOVEWORD_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 268
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 38
+    END
+
+    IDD_CS_SETCOLOR_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 236
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 44
+    END
+
+    IDD_CS_REMARK_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 254
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 38
+    END
+
+    IDD_CS_OPENDLG_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 250
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 38
+    END
+
+    IDD_CS_SHOW_ELEMENT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 60
+    END
+
+    IDD_CS_WORDTYPE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 238
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 60
+    END
+
+    IDD_CS_MISC_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 276
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 38
+    END
+
+    IDD_CS_ACCEL_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 269
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_RECITE_SCHEME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 373
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 248
+    END
+
+    IDD_CS_LOAD_RECITE_SCHEME_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 266
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 70
+    END
+
+    IDD_CS_MISC_COND_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 38
+    END
+
+    IDD_GLOBALCMD_SET_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 303
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 156
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCEL ACCELERATORS 
+BEGIN
+    VK_RETURN,      ID_CHECK_PRICTICE_WORD, VIRTKEY, NOINVERT
+    "S",            ID_OPTION,              VIRTKEY, CONTROL, NOINVERT
+    "A",            ID_SET_ACCESS_TIME,     VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_SET_FILTER,          VIRTKEY, CONTROL, NOINVERT
+    VK_TAB,         IDACC_SHOW_WORDMEANING, VIRTKEY, NOINVERT
+    VK_UP,          IDC_FIRSTWORD,          VIRTKEY, CONTROL, NOINVERT
+    VK_DOWN,        IDC_LASTWORD,           VIRTKEY, CONTROL, NOINVERT
+    VK_DOWN,        IDC_NEXTWORD,           VIRTKEY, NOINVERT
+    VK_TAB,         IDC_PREVWORD,           VIRTKEY, SHIFT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU 
+BEGIN
+    POPUP "操作"
+    BEGIN
+        MENUITEM "背诵方案设置(&F)...",               ID_SET_RECITE_SCHEME, MENUBREAK
+        MENUITEM "全局命令设置(G)...",                ID_SET_GLOBAL_CMD
+        MENUITEM SEPARATOR
+        MENUITEM "单词属性管理(&T)...",               ID_MANAGE_WORDTYPE
+        MENUITEM "设置/取消单词访问时间(A)",              ID_TOOGLE_ACCESS_TIME
+        MENUITEM SEPARATOR
+        MENUITEM "选项(&O)...",                   ID_OPTION
+        MENUITEM SEPARATOR
+        MENUITEM "帮助(H)",                       ID_HELP
+    END
+    POPUP """单词""窗口的右键菜单"
+    BEGIN
+        MENUITEM "字体...",                       ID_WORD_FONT
+        POPUP "单词浏览方式"
+        BEGIN
+            MENUITEM "原始顺序",                        ID_BROWSE_DIRECT
+            MENUITEM "随机顺序",                        ID_BROSE_RANDOM
+        END
+    END
+    POPUP "汉意窗口的右键菜单"
+    BEGIN
+        MENUITEM "字体...",                       ID_MEANING_SETFONT
+        MENUITEM "尽量显示单词的详细解释",                 ID_MEANING_SHOWDETAIL
+    END
+    POPUP "帮助"
+    BEGIN
+        MENUITEM "内容...",                       ID_HELP
+        MENUITEM "关于",                          ID_ABOUD
+    END
+    POPUP "辅助"
+    BEGIN
+        MENUITEM "重设颜色",                        ID_RESET_COLORS
+        MENUITEM "翻译快捷键",                       ID_TRANSLATE_ACCEL
+        MENUITEM "切换单词汉意显示方式",                  ID_TOGGLE_WORD_DETAIL_MEANING
+        MENUITEM "隐藏练习结果窗口",                    ID_HIDE_PRACTISE_RESULT_DLG
+    END
+END
+
+IDR_FILTERSETMENU MENU 
+BEGIN
+    POPUP "组合Filter的右键菜单"
+    BEGIN
+        POPUP "添加单一子规则"
+        BEGIN
+            MENUITEM "单词过滤规则",                      IDFS_ADD_WORD_FILTER
+            MENUITEM "汉意过滤规则",                      IDFS_ADD_MEANING_FILTER
+            MENUITEM "音标过滤规则",                      IDFS_ADD_PHONETIC_FILTER
+            MENUITEM "类别过滤规则",                      IDFS_ADD_CLASS_FILTER
+            MENUITEM "背诵日期规则",                      IDFS_ADD_ACCESSTIME_FILTER
+            MENUITEM "属性过滤规则",                      IDFS_ADD_TYPE_FILTER
+        END
+        POPUP "添加组合子规则"
+        BEGIN
+            MENUITEM "逻辑与",                         IDFS_ADD_AND_FILTER
+            MENUITEM "逻辑或",                         IDFS_ADD_OR_FILTER
+            MENUITEM "逻辑非",                         IDFS_ADD_NOT_FILTER
+        END
+        POPUP "规则切换为"
+        BEGIN
+            MENUITEM "单词过滤规则",                      IDFS_FILTER_TO_WORD
+            MENUITEM "汉意过滤规则",                      IDFS_FILTER_TO_MEANING
+            MENUITEM "音标过滤规则",                      IDFS_FILTER_TO_PHONETIC
+            MENUITEM "类别过滤规则",                      IDFS_FILTER_TO_CLASS
+            MENUITEM "背诵日期规则",                      IDFS_FILTER_TO_ACCESSTIME
+            MENUITEM "属性过滤规则",                      IDFS_FILTER_TO_TYPE
+            MENUITEM SEPARATOR
+            MENUITEM "逻辑与过滤规则",                     IDFS_FILTER_TO_AND
+            MENUITEM "逻辑或过滤规则",                     IDFS_FILTER_TO_OR
+            MENUITEM "逻辑非过滤规则",                     IDFS_FILTER_TO_NOT
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "编辑此规则",                       IDFS_EDIT_FILTER
+        MENUITEM "删除此规则",                       IDFS_DELETE_FILTER
+        MENUITEM SEPARATOR
+        MENUITEM "展开全部",                        ID_FILTER_EXPAND_ALL
+    END
+    POPUP "单一Filter的右键菜单"
+    BEGIN
+        MENUITEM "编辑此规则",                       IDFS_EDIT_FILTER
+        MENUITEM "删除此规则",                       IDFS_DELETE_FILTER
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_MENU_SMALL          BITMAP                  "res\\wordcalss_small.bmp"
+IDB_MENU                BITMAP                  "res\\wordclass.bmp"
+IDB_LINA                BITMAP                  "res\\lina.bmp"
+IDB_EARTH               BITMAP                  "res\\earth.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_RS_MISC_PAGE DLGINIT
+BEGIN
+    IDC_CB_MARK_ACCESSTIME_MODE, 0x403, 9, 0
+0xd3b4, 0xbbb2, 0xe8c9, 0xc3d6, "\000" 
+    IDC_CB_MARK_ACCESSTIME_MODE, 0x403, 9, 0
+0xd4d7, 0xafb6, 0xe8c9, 0xc3d6, "\000" 
+    IDC_CB_MARK_ACCESSTIME_MODE, 0x403, 17, 0
+0xdad4, 0xb4c6, 0xb4d0, 0xa5b5, 0xcab4, 0xf3ba, 0xe8c9, 0xc3d6, "\000" 
+    IDC_CB_MARK_ACCESSTIME_MODE, 0x403, 21, 0
+0xdad4, 0xb4c6, 0xb4d0, 0xa5b5, 0xcab4, 0xfdd5, 0xb7c8, 0xf3ba, 0xe8c9, 
+0xc3d6, "\000" 
+    IDC_CB_MARK_ACCESSTIME_MODE, 0x403, 21, 0
+0xdad4, 0xb4c6, 0xb4d0, 0xa5b5, 0xcab4, 0xedb4, 0xf3ce, 0xf3ba, 0xe8c9, 
+0xc3d6, "\000" 
+    IDC_CB_WORD_ORDER_BASE, 0x403, 7, 0
+0xb4b0, 0xa5b5, 0xcab4, "\000" 
+    IDC_CB_WORD_ORDER_BASE, 0x403, 11, 0
+0xb4b0, 0xc3b7, 0xcace, 0xb1ca, 0xe4bc, "\000" 
+    IDC_CB_WORD_ORDER, 0x403, 5, 0
+0xfdc9, 0xf2d0, "\000" 
+    IDC_CB_WORD_ORDER, 0x403, 5, 0
+0xb5bd, 0xf2d0, "\000" 
+    IDC_CB_WORD_ORDER, 0x403, 5, 0
+0xe6cb, 0xfabb, "\000" 
+    IDC_CB_WORD_ORDER, 0x403, 7, 0
+0xbbb2, 0xc5c5, 0xf2d0, "\000" 
+    0
+END
+
+IDD_CS_INTERVAL_DLG DLGINIT
+BEGIN
+    IDC_COMBO_REPEAT_TIME, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_REPEAT_TIME, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO_REPEAT_TIME, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO_REPEAT_TIME, 0x403, 2, 0
+0x0034, 
+    IDC_COMBO_REPEAT_TIME, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO_REPEAT_TIME, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_REPEAT_TIME, 0x403, 4, 0
+0x3031, 0x0030, 
+    IDC_COMBO_REPEAT_TIME, 0x403, 5, 0
+0x3031, 0x3030, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TXT
+//
+
+IDR_SCRIPT_FOR_LINA     TXT                     "res\\lina_script.txt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// HTML
+//
+
+IDR_HTML_MEANING_TEMPLATE HTML                    "res\\MeaningTemplate.html"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// IMAGE
+//
+
+IDIMG_CHK_RIGHT         IMAGE                   "res\\chk_right.bmp"
+IDIMG_CHK_WRONG         IMAGE                   "res\\chk_wrong.bmp"
+IDIMG_HEART             IMAGE                   "res\\heart.gif"
+IDIMG_GOLD_FISH         IMAGE                   "res\\goldfish.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// FONT_DATA
+//
+
+IDF_PHONETIC            FONT_DATA               "res\\phonetic.dat"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR_COPY         CURSOR                  "res\\DRAGCOPY.CUR"
+IDC_CURSOR_MOVE         CURSOR                  "res\\DRAGMOVE.CUR"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 SuperWord(&A)..."
+    IDSFN_WORD_CMD          "PerWordCmd.txt"
+    IDS_DATABASE            "timepp_dict"
+    IDSFN_WORD_FILTER       "WordFilter.txt"
+    IDSFN_GLOBAL_CMD        "GlobalCmd.txt"
+    IDSP_WORD_CLASS         "WordClass"
+    IDSP_RECITE_SCHEME      "ReciteScheme"
+    IDSFN_CFG               "config.dat"
+    IDSP_WORD_FILTER        "WordFilter"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WORD_CLASS           "设置,修改练习单词的类别"
+    IDSFN_DETAIL_MEANING    "detaildict.dic"
+    IDSFN_WORD_TYPE         "WordType.txt"
+    IDC_WORDTYPE_LIST       "您可以设置多达16种基本的单词属性，比如生词，熟词，等等。\n每个单词的属性可以是这16种基本属性的任意组合，\n比如单词""happy""的属性可以是""生词""＋""感兴趣的单词""＋""重要单词""。\n单词属性用在单词过滤上，可以使您更方便地选择背诵和复习单词的范围"
+    IDS_PHONETIC_FONT_NAME  "Kingsoft Phonetic Plain"
+    IDSP_COLOR_SCHEME       "ColorScheme"
+    IDSFN_USER_WORD         "UserWord.dat"
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_EDIT_RETURNNUM      "一次查询所返回的单词数量。\n输入-1表示对数返回的单词数没有限制"
+END
+
+STRINGTABLE 
+BEGIN
+    IDOK                    "关闭该对话框并保存所做的更改。"
+    IDCANCEL                "关闭该对话框，但不保存任何修改"
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_BTN_IMPORT_FILTER   "从一个文件导入过滤规则\n注意：当前的过滤规则将被覆盖"
+    IDC_BTN_EXPORT_FILTER   "导出当前的过滤设置到一个文件\n使用文件保存过滤规则有助于您在不同的背诵模式间切换"
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_CB_MARK_ACCESSTIME_MODE 
+                            "注意\n当选择自动设置时, 已被设置访问时间的单词, 不会再自动的设置单词访问时间为当前时间"
+    IDC_BTN_LOAD_COLORSCHEME "从配色文件中加载配色方案"
+    IDC_BTN_SAVE_COLORSCHEME "把当前的配色方案存为一个文件\n这样您就可以方便地切换不同的配色方案"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APPLY_NOW            "使所有更改生效，但不关闭对话框。"
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_BTN_MOVEUP          "将所选项目上移\n(将所选项目和它的上一个项目交换位置)"
+    IDC_BTN_MOVEDOWN        "将所选项目下移\n(将所选项目和它的下一个项目交换位置)"
+    IDC_HOTKEY              "设置快捷键"
+    IDC_BTN_ADD_WORD_TYPE   "添加一个新的单词类别"
+    IDC_BTN_DEL_WORD_TYPE   "删除所选单词类别"
+    IDC_BTN_SET_HOT_KEY     "为所选单词属性设置一个快捷键\n\n在背诵单词时如果按下这个快捷键，\n就会切换正在背诵单词的所选属性"
+    IDC_BTN_EXCHANGE_SEL    "交换两个所选项目的位置"
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_TREE_GLOBAL_CMD     "设置程序初始化完毕时执行的命令\n典型的应用是设置一些全局的快捷键\n比如移动单词的快捷键等"
+END
+
+STRINGTABLE 
+BEGIN
+    IDSP_WORD_CMD           "CmdWord"
+    IDSP_GLOBAL_CMD         "CmdGlobal"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\SuperWord.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
