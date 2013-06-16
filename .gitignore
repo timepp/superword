@@ -11,3 +11,7 @@
 *.lai
 *.la
 *.a
+
+Release
+/SuperWord/*.sdf
+/SuperWord/Product/SuperWord.exe
